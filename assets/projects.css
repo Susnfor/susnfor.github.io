@@ -44,16 +44,28 @@ a:active {
     /* border: 0.4vh solid black; */
 }
 
-.projects-row{
-    display: flex;
-    /* border: 0.3vh solid rgb(240, 0, 0); */
-    flex-flow: row wrap;
-    column-gap: 10vh;
-    row-gap: 5vh;
-    padding-bottom: 5vh;
-    justify-content: center;
-    /* padding-bottom: 1vh; */
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5vh;
+    padding: 5vh;
+    justify-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
 
+@media only screen and (max-width: 1200px){
+    .projects{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .projects{
+        grid-template-columns: 1fr;
+        gap: 3vh;
+        padding: 3vh;
+    }
 }
 
 .project{
@@ -269,5 +281,19 @@ a:active {
     background-image: url(./tflMock.png);
 }
 #tfl:hover{
+    background-image:url(./grunge.jpg);
+}
+
+#jnb{
+    background-image: url(./jnbMock.png);
+}
+#jnb:hover{
+    background-image:url(./grunge.jpg);
+}
+
+#movie-watchlist{
+    background-image: url(./movie-watchlistMock.png);
+}
+#movie-watchlist:hover{
     background-image:url(./grunge.jpg);
 }
