@@ -81,8 +81,7 @@ a:active {
 }
 .project:hover{
     transform: scale(1.1);
-    background-image:url(./grunge.jpg) ;
-
+    background-image:url(./grunge.jpg) !important;
 }
 
 .pythonproj{
@@ -174,126 +173,79 @@ a:active {
 #gibberish{
     background-image: url(./gibberishMock.png);
 }
-#gibberish:hover{
-    background-image:url(./grunge.jpg);
-}
 
 #ignition{
     background-image: url(./ignitionMock2.png);
-}
-#ignition:hover{
-    background-image:url(./grunge.jpg);
 }
 
 #aboutmequiz{
     background-image: url(./aboutmeMock.png);
 }
-#aboutmequiz:hover{
-    background-image:url(./grunge.jpg);
-}
 
 #pomodoro{
     background-image: url(./pomodoroMock.png);
-}
-#pomodoro:hover{
-    background-image:url(./grunge.jpg);
 }
 
 #mcwiki{
     background-image: url(./mc-wiki.png);
 }
-#mcwiki:hover{
-    background-image:url(./grunge.jpg);
-}
 
 #neonport{
     background-image: url(./3dportMock.png);
-}
-#neonport:hover{
-    background-image:url(./grunge.jpg);
 }
 
 #airfoodie{
     background-image: url(./recipeMock.png);
 }
-#airfoodie:hover{
-    background-image:url(./grunge.jpg);
-}
 
 #aboutcard{
     background-image: url(./cardMock.png);
-}
-#aboutcard:hover{
-    background-image:url(./grunge.jpg);
 }
 
 #remindme{
     background-image: url(./remindMock.png);
 }
-#remindme:hover{
-    background-image:url(./grunge.jpg);
-}
 
 #mentalbeing{
     background-image: url(./mentalMock.png);
-}
-#mentalbeing:hover{
-    background-image:url(./grunge.jpg);
 }
 
 #budgetapp{
     background-image: url(./budgetMock.png);
 }
-#budgetapp:hover{
-    background-image:url(./grunge.jpg);
-}
 
 #workoutapp{
     background-image: url(./workoutMock.png);
 }
-#workoutapp:hover{
-    background-image:url(./grunge.jpg);
-}
 
 #devran{
     background-image: url(./devranMock.png);
-}
-#devran:hover{
-    background-image:url(./grunge.jpg);
 }
 
 #petra{
     background-image: url(./petraMock.png);
 }
 
-#petra:hover{
-    background-image:url(./grunge.jpg);
-}
-
 #marketing-agency{
     background-image: url(./marketingMock.png);
-}
-#marketing-agency:hover{
-    background-image:url(./grunge.jpg);
 }
 
 #tfl{
     background-image: url(./tflMock.png);
 }
-#tfl:hover{
-    background-image:url(./grunge.jpg);
-}
 
 #jnb{
     background-image: url(./jnbMock.png);
-}
-#jnb:hover{
-    background-image:url(./grunge.jpg);
 }
 
 #movie-watchlist{
     background-image: url(./movie-watchlistMock.png);
 }
-#movie-watchlist:hover{
-    background-image:url(./grunge.jpg);
+
+#jnb-agency{
+    background-image: url(./jnbMock.png);
+}
+
+#stable-prompts{
+    background-image: url(./stableMock.png);
 }
