@@ -249,3 +249,7 @@ a:active {
 #stable-prompts{
     background-image: url(./stableMock.png);
 }
+
+#star-prep{
+    background-image: url(./starprepMock.png);
+}
